@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Rushil Gara</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .blog-header {
+            padding-top: 120px;
+            padding-bottom: 60px;
+            text-align: center;
+            background: var(--gradient-glow);
+        }
+
+        .article-card {
+            background: var(--surface-color);
+            padding: 2rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            margin-bottom: 2rem;
+            transition: var(--transition-normal);
+        }
+
+        .article-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-5px);
+        }
+
+        .article-meta {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .article-title {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .article-content {
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">RG<span style="color: var(--primary-color);">.</span></a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="blog-header">
+        <div class="container">
+            <h1 class="text-gradient" style="font-size: 3rem; margin-bottom: 1rem;">Thoughts & Insights</h1>
+            <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">
+                Exploring the intersection of AI, Product Development, and Student Life.
+            </p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container" style="max-width: 800px;">
+
+            <!-- Article 1 -->
+            <article class="article-card">
+                <span class="article-meta">Productivity • AI</span>
+                <h2 class="article-title">How AI is Transforming Everyday Productivity</h2>
+                <div class="article-content">
+                    <p>Artificial Intelligence is no longer just a buzzword; it's a practical tool that can simplify
+                        daily tasks for students, developers, and professionals. In this article, I explore how tools
+                        like those we're building at Qurys AI are designed to make tasks easier, faster, and more
+                        efficient, impacting real-world productivity.</p>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-card">
+                <span class="article-meta">Startup • OpternX</span>
+                <h2 class="article-title">From Idea to Product: My Journey with OpternX</h2>
+                <div class="article-content">
+                    <p>Building OpternX has been a journey of discovery. It started with a simple observation: the
+                        hiring process is broken. Here, I share insights into building an AI-powered product from
+                        scratch, the challenges of bypassing traditional resumes, and the iterative process of creating
+                        a platform that truly helps candidates.</p>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-card">
+                <span class="article-meta">Dev Tools</span>
+                <h2 class="article-title">Top 5 AI Tools Every Developer Should Know</h2>
+                <div class="article-content">
+                    <p>As a developer, your toolkit is your superpower. I highlight 5 essential AI tools that solve
+                        common coding problems, automate mundane tasks, and suggest ways to integrate them into your
+                        projects to boost your development speed.</p>
+                </div>
+            </article>
+
+            <!-- Article 4 -->
+            <article class="article-card">
+                <span class="article-meta">Entrepreneurship</span>
+                <h2 class="article-title">Lessons I Learned While Building My First Startup Product</h2>
+                <div class="article-content">
+                    <p>Entrepreneurship is a steep learning curve. This piece focuses on the lessons I've learned about
+                        problem-solving, the importance of teamwork, and the resilience required to turn an idea into a
+                        tangible product.</p>
+                </div>
+            </article>
+
+            <!-- Article 5 -->
+            <article class="article-card">
+                <span class="article-meta">Education</span>
+                <h2 class="article-title">The Future of AI in Student Learning and Productivity</h2>
+                <div class="article-content">
+                    <p>AI has the potential to revolutionize how we learn. I explore how students can leverage AI to
+                        learn faster, automate administrative tasks, and stay organized, freeing up time for deep
+                        learning and creativity.</p>
+                </div>
+            </article>
+
+            <!-- Article 6 -->
+            <article class="article-card">
+                <span class="article-meta">Guide</span>
+                <h2 class="article-title">How to Approach Product Building as a Beginner</h2>
+                <div class="article-content">
+                    <p>Starting is often the hardest part. Based on my own experience, I offer advice on idea
+                        validation, rapid prototyping, and the importance of iterating on your product based on
+                        feedback.</p>
+                </div>
+            </article>
+
+            <!-- Article 7 -->
+            <article class="article-card">
+                <span class="article-meta">Personal Journey</span>
+                <h2 class="article-title">My Tech Learning Journey: Coding, AI, and Product Development</h2>
+                <div class="article-content">
+                    <p>A personal look at my growth from learning C and Python to diving deep into AI and product
+                        development. I share the challenges I faced and the milestones that have shaped my path as a
+                        technologist.</p>
+                </div>
+            </article>
+
+            <!-- Article 8 -->
+            <article class="article-card">
+                <span class="article-meta">Philosophy</span>
+                <h2 class="article-title">AI for Everyone: Making Complex Problems Simple</h2>
+                <div class="article-content">
+                    <p>Technology should be accessible. I discuss the philosophy behind making complex AI problems
+                        simple and user-friendly, ensuring that the benefits of advanced technology reach everyone.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <footer class="section"
+        style="background: linear-gradient(to top, #000, #0a0a0a); text-align: center; padding: 2rem 0;">
+        <div class="container">
+            <p style="color: var(--text-muted);">&copy; 2024 Rushil Gara. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
